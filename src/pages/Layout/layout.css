@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg-dark {
+    background-color: blue;
+}
+
+.navbar-section {
+    position: fixed-top;
+    height: 75px;
+}
+
+.main-section {
+    width: 100%;
+    height: calc(100vh - 250px);
+  
+}
