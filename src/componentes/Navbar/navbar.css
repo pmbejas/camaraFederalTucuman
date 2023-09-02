@@ -1,0 +1,24 @@
+.navbar {
+    font-size: 1.3rem;
+}
+
+.contenedor-logo {
+    display: flex;
+    flex: row;
+    align-items: center;
+}
+
+.contenedor-logo--img-logo {
+    height: 90px;
+}
+
+.contenedor-logo--texto-logo {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    margin-left: 5px;
+    font-weight: 500;
+}
+

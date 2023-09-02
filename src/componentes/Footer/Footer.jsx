@@ -2,7 +2,7 @@ import './footer.css';
 
 const Footer = () => {
   return (
-    <div className="bg-dark pie-de-pagina">
+    <div className="pie-de-pagina fixed-bottom">
       <p>
         Pie de Pagina
       </p>

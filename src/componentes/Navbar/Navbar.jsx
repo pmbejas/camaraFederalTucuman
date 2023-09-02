@@ -1,13 +1,22 @@
 import "./navbar.css";
+import logo from "../../Images/escudo_argentina.png";
+import { Link } from "react-router-dom";
+
 
 const NavBar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            Navbar
-          </a>
+          <Link to ="/" className="navbar-brand ms-3">
+            <div className="contenedor-logo">
+              <img className="contenedor-logo--img-logo" src={logo} alt="" />
+              <div className="contenedor-logo--texto-logo">
+                <p className="m-0 p-0">Poder Judicial de la Nacion</p>
+                <p className="m-0 p-0">Cámara Federal de Tucumán</p>
+              </div>
+            </div>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -19,50 +28,46 @@ const NavBar = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarNavDropdown">
+          <div className="collapse navbar-collapse flex-row-reverse me-3" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                  Home
-                </a>
+                <Link to="/" className="nav-link active" aria-current="page" href="#">
+                  Inicio
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Features
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Pricing
-                </a>
+                <Link to="/guia" className="nav-link" href="#">
+                  Guia Judicial
+                </Link>
               </li>
               <li className="nav-item dropdown">
-                <a
+                <Link
+                  to="/boletin"
                   className="nav-link dropdown-toggle"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown link
-                </a>
+                  Novedades
+                </Link>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Action
-                    </a>
+                    <Link to="/boletin/tema" className="dropdown-item" href="#">
+                      Por Tema
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Another action
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Something else here
-                    </a>
+                    <Link to="/boletin/fecha" className="dropdown-item" href="#">
+                      Por Fecha
+                    </Link>
                   </li>
                 </ul>
+              </li>
+              <li className="nav-item">
+                <Link to="/contacto" className="nav-link">
+                  Contacto
+                </Link>
               </li>
             </ul>
           </div>

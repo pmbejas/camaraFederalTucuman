@@ -3,10 +3,6 @@
     padding: 0px;
 }
 
-.bg-dark {
-    background-color: blue;
-}
-
 .navbar-section {
     position: fixed-top;
     height: 75px;

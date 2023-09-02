@@ -7,10 +7,8 @@ export const Layout = () => {
     return (
         <main>
             <div className="container-fluid m-0 p-0">
-                    <div className="container-fluid m-0 p-0 bg-dark navbar-section">
-                        <NavBar />
-                    </div>
-                    <div className="bg-primary main-section">
+                    <NavBar />
+                    <div className="main-section">
                         <Outlet />
                     </div>
                     <Footer />
