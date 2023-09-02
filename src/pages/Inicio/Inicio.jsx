@@ -7,6 +7,6 @@ export const Inicio = () => {
       <Backtitulo texto="INICIO" />
       Inicio
     </div>
-  )
+  ) 
 }
 
