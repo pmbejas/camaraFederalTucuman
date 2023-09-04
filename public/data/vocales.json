@@ -1,0 +1,30 @@
+[
+    {
+        "nombre": "Dr. Ricardo Mario Sanjuan",
+        "caracter": "Presidente",
+        "orden": 1,
+        "telefono": "(0381) 484-6188",
+        "email": "ricardo.sanjuan@pjn.gov.ar"
+    },
+    {
+        "nombre": "Dr. Mario Rodolfo Leal",
+        "caracter": "Vice-Presidente 1ro",
+        "orden": 2,
+        "telefono": "(0381) 484-6188",
+        "email": "ricardo.sanjuan@pjn.gov.ar"
+    },
+    {
+        "nombre": "Dra. Marina Cossio",
+        "caracter": "Vice-Presidente 2do",
+        "orden": 3,
+        "telefono": "(0381) 484-6188",
+        "email": "ricardo.sanjuan@pjn.gov.ar"
+    },
+    {
+        "nombre": "Dra. Patricia Marcela Moltini",
+        "caracter": "Vocal de Cámara",
+        "orden": 4,
+        "telefono": "(0381) 484-6188",
+        "email": "ricardo.sanjuan@pjn.gov.ar"
+    }
+]

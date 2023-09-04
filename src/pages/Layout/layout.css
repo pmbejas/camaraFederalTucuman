@@ -10,6 +10,6 @@
 
 .main-section {
     width: 100%;
-    height: calc(100vh - 250px);
+    min-height: calc(100vh - 250px);
   
 }
