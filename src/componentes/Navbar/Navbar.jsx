@@ -12,7 +12,7 @@ const NavBar = () => {
             <div className="contenedor-logo">
               <img className="contenedor-logo--img-logo" src={logo} alt="" />
               <div className="contenedor-logo--texto-logo">
-                <p className="m-0 p-0">Poder Judicial de la Nacion</p>
+                <p className="m-0 p-0">Poder Judicial de la Nación</p>
                 <p className="m-0 p-0">Cámara Federal de Tucumán</p>
               </div>
             </div>
@@ -37,10 +37,20 @@ const NavBar = () => {
               </li>
               <li className="nav-item">
                 <Link to="/guia" className="nav-link" href="#">
-                  Guia Judicial
+                  Institucional
                 </Link>
               </li>
-              <li className="nav-item dropdown">
+              <li className="nav-item">
+                <Link to="/guia" className="nav-link" href="#">
+                  Novedades
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/fallos" className="nav-link" href="#">
+                  Jurisprudencia
+                </Link>
+              </li>
+              {/* <li className="nav-item dropdown">
                 <Link
                   to="/boletin"
                   className="nav-link dropdown-toggle"
@@ -63,7 +73,7 @@ const NavBar = () => {
                     </Link>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link to="/contacto" className="nav-link">
                   Contacto

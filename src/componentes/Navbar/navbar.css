@@ -9,7 +9,9 @@
 }
 
 .contenedor-logo--img-logo {
-    height: 90px;
+    height: 70px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .contenedor-logo--texto-logo {
@@ -20,6 +22,8 @@
     align-items: center;
     margin-left: 5px;
     font-weight: 500;
+    font-size: 1.1rem;
+    margin-left: 10px;
 }
 
 
