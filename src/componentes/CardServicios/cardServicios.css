@@ -1,0 +1,20 @@
+.card-servicios-main {
+    padding: 10px;
+    border: solid 1px rgb(121, 121, 121);
+    border-radius: 5px;
+    transition: box-shadow .300s ease-in-out;
+}
+
+.card-servicios-main:hover {
+/*     background-color: grey; */
+    box-shadow: 0px 0px 15px 3px grey;
+    cursor: pointer;
+}
+
+.card-servicios-main--titulo {
+    color: rgb(0, 0, 0);
+}
+
+.card-servicios-main--subtitulo {
+    color: rgb(50, 50, 50);
+}
