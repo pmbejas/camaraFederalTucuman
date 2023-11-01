@@ -16,11 +16,11 @@ export const Jueces = () => {
   return (
     <div className="container-fluid m-0 p-0">
       <Backtitulo texto={datos.nombreCamara} />
-      <section>
+      <section className='m-0 mb-5'>
         <div className="container">
         <div className="container-fluid d-flex justify-content-center">
             <div className="container-jueces-titulo">
-                <h3 className="mt-5 mb-5  ps-2 text-start text-dark">Jueces que conforman el Tribunal</h3>
+                <h3 className="mt-5 mb-2  ps-2 text-start text-dark">Jueces que conforman el Tribunal</h3>
             </div>
         </div>
           <Separador 
@@ -33,10 +33,9 @@ export const Jueces = () => {
           />
           <div className="container  d-flex justify-content-center mb-4 mt-4">
             <div className="container-jueces-imagen d-flex justify-content-center row">
-                    <img className="col-12 imagen-tribunal mt-4 mb-4" src="../../Images/vocales/tribunal.jpg" alt="" />
-                    <p className="col-12">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe non ab ad provident quo accusantium doloribus incidunt corrupti nesciunt cupiditate nulla quos, aliquid maiores dolores ipsum placeat in. Placeat, laborum.
-                        Sit nobis accusamus possimus omnis quod dolores sint sunt minus porro. Explicabo necessitatibus iure soluta eligendi aliquam repellat commodi, corrupti accusamus aperiam exercitationem modi, ullam, minima provident consectetur porro nihil.
+                    <img className="col-12 imagen-tribunal mt-4 mb-2" src="../../Images/vocales/tribunal.jpg" alt="" />
+                    <p className="col-11 fs-5">
+                    La designación de los Jueces Federales es una atribución que le corresponde al Presidente de la Nación con acuerdo del Senado por dos tercios de sus miembros presentes, en sesión pública convocada al efecto, de conformidad con el artículo 99 inciso 4 de la Constitución Nacional.
                     </p>
             </div>
           </div>
@@ -51,10 +50,10 @@ export const Jueces = () => {
             />
           </div>
             { datos.jueces && 
-                <section className="container-fluid m-0 mt-3 mb-3 p-0 text-start seccion-vocales">
+                <section className="container-fluid m-0 mt-3 mb-3 p-0 text-start">
                     <div className="container-fluid m-0 p-0 justify-content-evenly row gap-4">
                         {datos.jueces.map(juez => (
-                            <div key={juez.orden} className="col-12 col-md-8 mt-2">
+                            <div key={juez.orden} className="col-11 mt-2">
                                 <Cardvocales 
                                     className="col-12 col-md-3" 
                                     nombre={juez.nombre}
