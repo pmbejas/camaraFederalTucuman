@@ -12,8 +12,8 @@ const NavBar = () => {
             <div className="contenedor-logo">
               <img className="contenedor-logo--img-logo" src={logo} alt="" />
               <div className="contenedor-logo--texto-logo">
-                <p className="m-0 p-0">Poder Judicial de la Nación</p>
-                <p className="m-0 p-0">Cámara Federal de Tucumán</p>
+                <p className="m-0 p-0 fw-bold">Cámara Federal de Tucumán</p>
+                <p className="texto-pjn m-0 p-0">Poder Judicial de la Nación</p>
               </div>
             </div>
           </Link>
@@ -36,47 +36,23 @@ const NavBar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/guia" className="nav-link" href="#">
-                  Institucional
+                <Link to="/jueces" className="nav-link" href="#">
+                  Jueces
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/guia" className="nav-link" href="#">
-                  Novedades
+                <Link to="/boletines" className="nav-link" href="#">
+                  Boletines
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/fallos" className="nav-link" href="#">
+                <Link to="/jurisprudencia" className="nav-link" href="#">
                   Jurisprudencia
                 </Link>
               </li>
-              {/* <li className="nav-item dropdown">
-                <Link
-                  to="/boletin"
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Novedades
-                </Link>
-                <ul className="dropdown-menu">
-                  <li>
-                    <Link to="/boletin/tema" className="dropdown-item" href="#">
-                      Por Tema
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/boletin/fecha" className="dropdown-item" href="#">
-                      Por Fecha
-                    </Link>
-                  </li>
-                </ul>
-              </li> */}
               <li className="nav-item">
-                <Link to="/contacto" className="nav-link">
-                  Contacto
+                <Link to="/guia" className="nav-link" href="#">
+                  Guia Judicial
                 </Link>
               </li>
             </ul>

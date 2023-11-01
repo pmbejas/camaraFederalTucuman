@@ -1,5 +1,9 @@
 .card-vocales {
-    border: solid 1px gray;
+   /*  border: solid 1px gray; */
     border-radius: 5px;
     background-color: whitesmoke;
+}
+
+.card-vocales--imagen {
+    width: 80%;
 }

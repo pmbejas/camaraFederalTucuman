@@ -12,6 +12,30 @@ export const Inicio = () => {
     <div className="container-fluid m-0 p-0 mb-4">
       <Backtitulo texto="INICIO" />
       <section className="container-fluid d-flex justify-content-center mt-3 row">
+        <div className="container-inicio--primera-seccion col-10 mt-4">
+            <img className="float-start" src="../../Images/edificiocfa.jpg" alt="" style={{width: "40%"}}/>
+            <p className=''>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, soluta. Maiores, recusandae at eaque nisi, in minus tempore laboriosam sit labore, aperiam assumenda similique reprehenderit itaque? Alias, perferendis ipsum! Illo!
+            </p>
+            <p className=''>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, soluta. Maiores, recusandae at eaque nisi, in minus tempore laboriosam sit labore, aperiam assumenda similique reprehenderit itaque? Alias, perferendis ipsum! Illo!
+            </p>
+            <p className=''>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, soluta. Maiores, recusandae at eaque nisi, in minus tempore laboriosam sit labore, aperiam assumenda similique reprehenderit itaque? Alias, perferendis ipsum! Illo!
+            </p>
+            <p className=''>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, soluta. Maiores, recusandae at eaque nisi, in minus tempore laboriosam sit labore, aperiam assumenda similique reprehenderit itaque? Alias, perferendis ipsum! Illo!
+            </p>
+            <p className=''>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, soluta. Maiores, recusandae at eaque nisi, in minus tempore laboriosam sit labore, aperiam assumenda similique reprehenderit itaque? Alias, perferendis ipsum! Illo!
+            </p>
+            <p className=''>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, soluta. Maiores, recusandae at eaque nisi, in minus tempore laboriosam sit labore, aperiam assumenda similique reprehenderit itaque? Alias, perferendis ipsum! Illo!
+            </p>
+            <p className=''>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, soluta. Maiores, recusandae at eaque nisi, in minus tempore laboriosam sit labore, aperiam assumenda similique reprehenderit itaque? Alias, perferendis ipsum! Illo!
+            </p>
+        </div>
         <div className="col-12">
           <Separador 
             backgroundColor="rgb(0, 86, 143)" 
@@ -24,14 +48,14 @@ export const Inicio = () => {
         </div>
         <div className="col-12 d-flex row mt-4 gap-5 justify-content-center">
           <div className="col-12 col-md-3">
-            <Link to="/guia" className="nav-link h-100" href="#"> 
+            <Link to="/jueces" className="nav-link h-100" href="#"> 
               <CardServicios 
                 icono={iconoGuiaAzul}
                 width="100%"
                 height="100%"
                 color="rgb(0, 86, 143)"
-                titulo="Guia Judicial" 
-                subtitulo="Boletín de novedades"
+                titulo="Jueces" 
+                subtitulo="Jueces que conforman la Camara Federal de Tucumán"
               />
             </Link>
           </div>
@@ -48,17 +72,32 @@ export const Inicio = () => {
             </Link>
           </div>
           <div className="col-12 col-md-3">
-            <Link to="/fallos" className="nav-link h-100" href="#">
+            <Link to="/boletines" className="nav-link h-100" href="#">
               <CardServicios 
                 icono={iconoBoletinAzul}
                 width="100%"
                 height="100%"
                 color="rgb(0, 86, 143)"
-                titulo="Novedades" 
+                titulo="Boletines" 
+                subtitulo="Boletín de jurisprudencia"
+              />
+            </Link>
+          </div>
+
+          <div className="col-12 col-md-3">
+            <Link to="/guia" className="nav-link h-100" href="#"> 
+              <CardServicios 
+                icono={iconoGuiaAzul}
+                width="100%"
+                height="100%"
+                color="rgb(0, 86, 143)"
+                titulo="Guia Judicial" 
                 subtitulo="Boletín de novedades"
               />
             </Link>
           </div>
+
+          
           <div className="col-12 col-md-3">
             <Link to="/fallos" className="nav-link h-100" href="#">
               <CardServicios 

@@ -1,0 +1,13 @@
+.container-inicio--primera-seccion {
+
+}
+
+.container-inicio--primera-seccion p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.container-inicio--primera-seccion img{
+    margin-right: 20px;
+}

@@ -9,7 +9,7 @@ export const GuiaInicial = () => {
 
   return (
     <div className="container">
-        <h3 className="mt-4 mb-3 text-start text-primary">Dirección</h3>
+        <h3 className="mt-4 mb-3 text-start text-dark">Domicilio</h3>
          <section>
             <p className='m-0 p-0 mb-1'>Combate de las Piedras 418 - 4to Piso</p>
             <p className='m-0 p-0 mb-1'>(T4000BRJ) San Miguel de Tucuman</p>
@@ -18,11 +18,18 @@ export const GuiaInicial = () => {
         </section>
         { datos.jueces && 
             <section className="container-fluid m-0 mt-3 p-0 text-start seccion-vocales">
-                <h3 className='mt-4 text-primary'>Vocalías</h3>
-                <div className="container-fluid m-0 p-0 d-flex justify-content-start row">
+                <h3 className='mt-4 text-dark'>Vocalías</h3>
+                <div className="container-fluid m-0 p-0 justify-content-evenly row gap-4">
                     {datos.jueces.map(juez => (
-                        <div key={juez.orden} className="col-12 col-md-6 col-lg-4 mt-2">
-                            <Cardvocales className="col-12 col-md-3" nombre={juez.nombre} caracter={juez.caracter} telefono={juez.telefono} email={juez.email} />
+                        <div key={juez.orden} className="col-12 col-md-8 mt-2">
+                            <Cardvocales 
+                                className="col-12 col-md-3" 
+                                nombre={juez.nombre} 
+                                caracter={juez.caracter} 
+                                telefono={juez.telefono} 
+                                email={juez.email} 
+                                imagen={'../../Images/vocales/'+juez.imagen}
+                            />
                         </div>
                     ))}
                 </div>

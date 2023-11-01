@@ -5,4 +5,5 @@ export { Contacto } from './Contacto/Contacto';
 export { Guia } from './Guia/Guia';
 export { GuiaInicial } from './Guia/GuiaInicial';
 export { GuiaJurisdiccion } from './Guia/GuiaJurisdiccion';
+export { Jueces } from './Jueces/Jueces';
 export { Error404 } from './Error/Error404';

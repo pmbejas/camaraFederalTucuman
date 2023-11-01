@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import { Layout, Inicio, Contacto,  Guia, GuiaInicial, GuiaJurisdiccion, Error404 } from "./pages";
+import { Layout, Inicio, Contacto,  Guia, GuiaInicial, GuiaJurisdiccion, Jueces, Error404 } from "./pages";
 import "./App.css";
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Inicio />} />
           <Route path="/contacto" element={<Contacto />} />
+          <Route path="/jueces" element={<Jueces />} />
           <Route path="/guia" element={<Guia />}>
             <Route index element={<GuiaInicial />} />
             <Route path=":slug" element={<GuiaJurisdiccion />} />

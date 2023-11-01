@@ -1,0 +1,12 @@
+.container-jueces-titulo {
+    width: 90%;
+}
+
+.container-jueces-imagen {
+    width: 70%;
+
+}
+
+.imagen-tribunal{
+    object-fit:contain;
+}
