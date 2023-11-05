@@ -11,10 +11,12 @@ export const Inicio = () => {
   return (
     <div className="container-fluid m-0 p-0 mb-4">
       {/* <Backtitulo texto="Cámara Federal de Apelaciones de Tucumán" /> */}
-      <section className="container-fluid d-flex mt-3 row">
+      <section className="container-fluid contenedor-princial-inicio d-flex mt-3 row m-0 p-0">
         <span className="container-inicio--fondo-fijo col-12 m-0 p-0 text-center">
-          <p className="titulo-seccion-principal fw-bold">Cámara Federal de Apelaciones de Tucumán</p>
         </span>
+        <div className="titulo-seccion-principal d-flex align-items-center justify-content-center">
+              <p className="fw-bold">Cámara Federal de Apelaciones de Tucumán</p>
+        </div>
         <section className='col-12 bg-light d-flex row text-center justify-content-center'>
           <div className="primera-seccion col-8 pt-5 pb-5 bg-light">
             <h2 className='p-0 m-0 mb-5 fw-bold'>Nuestra Meta</h2>
