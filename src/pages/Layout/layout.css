@@ -4,11 +4,11 @@
 }
 
 .navbar-section {
-    position: fixed-top;
     height: 75px;
 }
 
 .main-section {
+    margin-top: 83px;
     width: 100%;
     min-height: calc(100vh - 250px);
   

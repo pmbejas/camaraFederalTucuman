@@ -3,6 +3,7 @@
         "nombreJurisdiccion": "Tucumán",
         "idJurisdiccion": 1,
         "slug": "tucuman",
+        "imagen": "tucuman",
         "juzgados": [
             {
                 "idjuzgado": 1,
@@ -98,6 +99,7 @@
         "nombreJurisdiccion": "Santiago del Estero",
         "idJurisdiccion": 2,
         "slug": "santiago-del-estero",
+        "imagen": "santiago",
         "juzgados": [
             {
                 "idjuzgado": 3,
@@ -169,6 +171,7 @@
         "nombreJurisdiccion": "Catamarca",
         "idJurisdiccion": 3,
         "slug": "catamarca",
+        "imagen": "catamarca",
         "juzgados": [
             {
                 "idjuzgado": 5,

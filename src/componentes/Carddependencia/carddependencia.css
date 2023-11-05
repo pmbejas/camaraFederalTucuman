@@ -1,13 +1,13 @@
 .carta {
     border: 1px solid rgba(0,0,0,.400);
     border-radius: 5px;
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
     padding: 10px;
     transition: box-shadow .300s ease-in-out;
 }
 
 .carta:hover {
-    box-shadow: 0px 0px 15px #0d6efd
+    box-shadow: 0px 0px 15px #5e5e5e
     
 }
 
@@ -15,4 +15,8 @@
     color: black;
     font-weight: 500;
     text-decoration: none;
+}
+
+.cardDependencia-imagen {
+    height: 50px;
 }
