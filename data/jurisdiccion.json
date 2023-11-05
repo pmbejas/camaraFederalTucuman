@@ -1,0 +1,242 @@
+[
+    {
+        "nombreJurisdiccion": "Tucumán",
+        "idJurisdiccion": 1,
+        "slug": "tucuman",
+        "imagen": "tucuman",
+        "juzgados": [
+            {
+                "idjuzgado": 1,
+                "nombre": "Juzgado Federal de Tucumán Nro. 1",
+                "jueces": 
+                    {
+                        "nombre": "José Díaz Vélez",
+                        "titular": "Subrogante",
+                        "ubicacion": "1er. Piso",
+                        "telefono": "(0381) 484-6155",
+                        "email": "jose.diaz.velez@pjn.gov.ar"
+                    },
+                "secretarias": [
+                    {
+                        "id": "1",
+                        "nombre": "Civil",
+                        "telefono": "(0381) 484-6155",
+                        "acargo": "Ana MAría"
+                    },
+                    {
+                        "id": "2",
+                        "nombre": "Penal",
+                        "telefono": "(0381) 484-6155",
+                        "acargo": "Javier Remis"
+                    },
+                    {
+                        "id": "3",
+                        "nombre": "Leyes Especiales Penal",
+                        "telefono": "(0381) 484-6155",
+                        "acargo": "Mariana del Rio"
+                    },
+                    {
+                        "id": "4",
+                        "nombre": "Derechos Humanos",
+                        "telefono": "(0381) 484-6155",
+                        "acargo": "Virginia Duffy"
+                    },
+                    {
+                        "id": "5",
+                        "nombre": "Electoral",
+                        "telefono": "(0381) 484-6155",
+                        "acargo": "Virginia Duffy"
+                    },
+                    {
+                        "id": "6",
+                        "nombre": "Fiscal y Previsional",
+                        "telefono": "(0381) 484-6155",
+                        "acargo": "Virginia Duffy"
+                    },
+                    {
+                        "id": "7",
+                        "nombre": "Ejecución Fiscal",
+                        "telefono": "(0381) 484-6155",
+                        "acargo": "Virginia Duffy"
+                    }
+                ]
+            },
+            {
+                "idjuzgado": 2,
+                "nombre": "Juzgado Federal de Tucumán Nro. 2",
+                "jueces": 
+                    {
+                        "nombre": "Fernando Poviña",
+                        "titular": "Titular",
+                        "ubicacion": "5to. Piso",
+                        "telefono": "(0381) 484-6155",
+                        "email": "fernando.povina@pjn.gov.ar"
+                    },
+                "secretarias": [
+                    {
+                        "id": "1",
+                        "nombre": "Secretaría Civil",
+                        "telefono": "",
+                        "acargo": "Ana MAría"
+                    },
+                    {
+                        "id": "2",
+                        "nombre": "Secretaría Penal",
+                        "telefono": "",
+                        "acargo": "Karina Salas"
+                    },
+                    {
+                        "id": "3",
+                        "nombre": "Secretaría de Leyes Especiales Penal",
+                        "telefono": "",
+                        "acargo": "Ramón Alberto Zelaya"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "nombreJurisdiccion": "Santiago del Estero",
+        "idJurisdiccion": 2,
+        "slug": "santiago-del-estero",
+        "imagen": "santiago",
+        "juzgados": [
+            {
+                "idjuzgado": 3,
+                "nombre": "Juzgado Federal de Santiago del Estero Nro. 1",
+                "jueces": 
+                    {
+                        "nombre": "Topo",
+                        "titular": "Subrogante",
+                        "ubicacion": "1er. Piso",
+                        "telefono": "(0381) 484-6155",
+                        "email": "jose.diaz.velez@pjn.gov.ar"
+                    },
+                "secretarias": [
+                    {
+                        "id": "1",
+                        "nombre": "Secretaría Civil",
+                        "telefono": "",
+                        "acargo": "Ana MAría"
+                    },
+                    {
+                        "id": "2",
+                        "nombre": "Secretaría Penal",
+                        "telefono": "",
+                        "acargo": "Javier Remis"
+                    },
+                    {
+                        "id": "3",
+                        "nombre": "Secretaría de Leyes Especiales Penal",
+                        "telefono": "",
+                        "acargo": "Mariana del Rio"
+                    }
+                ]
+            },
+            {
+                "idjuzgado": 4,
+                "nombre": "Juzgado Federal de Santiago del Estero Nro. 2",
+                "jueces": 
+                    {
+                        "nombre": "Fernando Poviña",
+                        "titular": "Titular",
+                        "ubicacion": "1er. Piso",
+                        "telefono": "(0381) 484-6155",
+                        "email": "jose.diaz.velez@pjn.gov.ar"
+                    },
+                "secretarias": [
+                    {
+                        "id": "1",
+                        "nombre": "Secretaría Civil",
+                        "telefono": "",
+                        "acargo": "Ana MAría"
+                    },
+                    {
+                        "id": "2",
+                        "nombre": "Secretaría Penal",
+                        "telefono": "",
+                        "acargo": "Karina Salas"
+                    },
+                    {
+                        "id": "3",
+                        "nombre": "Secretaría de Leyes Especiales Penal",
+                        "telefono": "",
+                        "acargo": "Ramón Alberto Zelaya"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "nombreJurisdiccion": "Catamarca",
+        "idJurisdiccion": 3,
+        "slug": "catamarca",
+        "imagen": "catamarca",
+        "juzgados": [
+            {
+                "idjuzgado": 5,
+                "nombre": "Juzgado Federal de Catamarca Nro. 1",
+                "jueces": 
+                    {
+                        "nombre": "Topo",
+                        "titular": "Subrogante",
+                        "ubicacion": "1er. Piso",
+                        "telefono": "(0381) 484-6155",
+                        "email": "jose.diaz.velez@pjn.gov.ar"
+                    },
+                "secretarias": [
+                    {
+                        "id": "1",
+                        "nombre": "Secretaría Civil",
+                        "telefono": "",
+                        "acargo": "Ana MAría"
+                    },
+                    {
+                        "id": "2",
+                        "nombre": "Secretaría Penal",
+                        "telefono": "",
+                        "acargo": "Javier Remis"
+                    },
+                    {
+                        "id": "3",
+                        "nombre": "Secretaría de Leyes Especiales Penal",
+                        "telefono": "",
+                        "acargo": "Mariana del Rio"
+                    }
+                ]
+            },
+            {
+                "idjuzgado": 6,
+                "nombre": "Juzgado Federal de Catamarca Nro. 2",
+                "jueces": 
+                    {
+                        "nombre": "Fernando Poviña",
+                        "titular": "Titular",
+                        "ubicacion": "1er. Piso",
+                        "telefono": "(0381) 484-6155",
+                        "email": "jose.diaz.velez@pjn.gov.ar"
+                    },
+                "secretarias": [
+                    {
+                        "id": "1",
+                        "nombre": "Secretaría Civil",
+                        "telefono": "",
+                        "acargo": "Ana MAría"
+                    },
+                    {
+                        "id": "2",
+                        "nombre": "Secretaría Penal",
+                        "telefono": "",
+                        "acargo": "Karina Salas"
+                    },
+                    {
+                        "id": "3",
+                        "nombre": "Secretaría de Leyes Especiales Penal",
+                        "telefono": "",
+                        "acargo": "Ramón Alberto Zelaya"
+                    }
+                ]
+            }
+        ]
+    }
+]

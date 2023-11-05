@@ -1,0 +1,42 @@
+[
+    {
+        "nombre": "Dr. Ricardo Mario Sanjuan",
+        "caracter": "Presidente",
+        "orden": 1,
+        "telefono": "(0381) 484-6188",
+        "email": "ricardo.sanjuan@pjn.gov.ar",
+        "imagen": "imgJuez1.jpg"
+    },
+    {
+        "nombre": "Dra. Marina Cossio",
+        "caracter": "Vice-Presidente 2do",
+        "orden": 2,
+        "telefono": "(0381) 484-6188",
+        "email": "ricardo.sanjuan@pjn.gov.ar",
+        "imagen": "imgJuez2.jpg"
+    },
+    {
+        "nombre": "Dr. Mario Rodolfo Leal",
+        "caracter": "Vice-Presidente 1ro",
+        "orden": 3,
+        "telefono": "(0381) 484-6188",
+        "email": "ricardo.sanjuan@pjn.gov.ar",
+        "imagen": "imgJuez3.jpg"
+    },
+    {
+        "nombre": "Dra. Patricia Moltini",
+        "caracter": "Vocal de Cámara",
+        "orden": 4,
+        "telefono": "(0381) 484-6188",
+        "email": "ricardo.sanjuan@pjn.gov.ar",
+        "imagen": "imgJuez4.jpg"
+    },
+    {
+        "nombre": "Dr. Fernando Poviña",
+        "caracter": "Vocal de Cámara",
+        "orden": 5,
+        "telefono": "(0381) 484-6188",
+        "email": "ricardo.sanjuan@pjn.gov.ar",
+        "imagen": "imgJuez5.jpg"
+    }
+]
