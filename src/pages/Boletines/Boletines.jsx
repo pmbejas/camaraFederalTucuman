@@ -11,6 +11,12 @@ export const Boletines = () => {
     
     useEffect(()=> {
         fetchData();
+
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+          });
+          
     }, []);
 
   return (
@@ -20,16 +26,28 @@ export const Boletines = () => {
             <div className="col-12 col-md-10 container-boletines-titulo">
                 <h3 className="mt-5 mb-2  ps-2 text-start text-dark">Cómo leer nuestros Boletines</h3>
             </div>
-            <Separador 
-                    backgroundColor="rgb(0, 86, 143)" 
-                    alto="5px" 
-                    ancho="83%" 
-                    borderRadius="5px"
-                    titulo=""
-                    classTitulo="text-light p-0 m-0 fs-4 ps-3"
-                    />
+            <div className="d-block d-md-none">
+                <Separador className="d-" 
+                        backgroundColor="rgb(0, 86, 143)" 
+                        alto="5px" 
+                        ancho="95" 
+                        borderRadius="5px"
+                        titulo=""
+                        classTitulo="text-light p-0 m-0 fs-4 ps-3"
+                        />
+            </div>
+            <div className="d-none d-md-block">
+                <Separador 
+                        backgroundColor="rgb(0, 86, 143)" 
+                        alto="5px" 
+                        ancho="83%" 
+                        borderRadius="5px"
+                        titulo=""
+                        classTitulo="text-light p-0 m-0 fs-4 ps-3"
+                        />
+            </div>
             <div className="col-12 col-md-10">
-                <p className='container-boletines-comoleer p-0 m-0 mt-4 fs-4'>
+                <p className='container-boletines-comoleer p-0 m-0 mt-4 fs-md-4'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ex laboriosam voluptates non tenetur aperiam id suscipit quam assumenda voluptatum delectus excepturi dolorem totam facere, optio accusamus esse ab? In.
                 </p>
             </div>
@@ -38,17 +56,29 @@ export const Boletines = () => {
             <div className="col-12 col-md-10 container-boletines-titulo">
                 <h3 className="mt-5 mb-2  ps-2 text-start text-dark">Boletines</h3>
             </div>
-            <Separador 
-                    backgroundColor="rgb(0, 86, 143)" 
-                    alto="5px" 
-                    ancho="83%" 
-                    borderRadius="5px"
-                    titulo=""
-                    classTitulo="text-light p-0 m-0 fs-4 ps-3"
-                    />
-            <div className="col-12 col-md-10 d-flex row mt-5 mb-5">
+            <div className="d-block d-md-none">
+                <Separador className="d-" 
+                        backgroundColor="rgb(0, 86, 143)" 
+                        alto="5px" 
+                        ancho="95" 
+                        borderRadius="5px"
+                        titulo=""
+                        classTitulo="text-light p-0 m-0 fs-4 ps-3"
+                        />
+            </div>
+            <div className="d-none d-md-block">
+                <Separador 
+                        backgroundColor="rgb(0, 86, 143)" 
+                        alto="5px" 
+                        ancho="83%" 
+                        borderRadius="5px"
+                        titulo=""
+                        classTitulo="text-light p-0 m-0 fs-4 ps-3"
+                        />
+            </div>
+            <div className="col-12 col-md-10 d-flex justify-content-center row mt-5 mb-5">
                 {boletines && boletines.map((boletin, key)=> (
-                    <div className="col-11 col-md-3" key={key}>
+                    <div className="col-12 col-md-3" key={key}>
                         <CardBoletin 
                             titulo={boletin.tituloBoletin} 
                             materia={boletin.materiaBoletin}

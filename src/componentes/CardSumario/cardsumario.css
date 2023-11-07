@@ -1,0 +1,16 @@
+.contenedor-sumario {
+    border: solid 1px rgb(0, 0, 0);
+    background-color: rgb(73, 72, 72);
+    color: white;
+    border-radius: 5px;
+    
+}
+
+.cardSumario--contenedorEliminar {
+    background-color: rgb(187, 0, 0);
+}
+
+.cardSumario--contenedorEliminar--boton {
+    color: white;
+    cursor: pointer;
+}

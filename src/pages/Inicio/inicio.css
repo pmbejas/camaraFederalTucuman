@@ -9,7 +9,7 @@
     text-align: justify;
     background-image: url('../../Images/edificiocfa.jpg');
     background-size: 100vw 100vh;
-    background-size: cover;
+    background-size: fill;
     background-position: center;
     height: calc(100vh - 83px);
     display: flex;
@@ -17,23 +17,20 @@
     align-items: center;
     background-attachment: fixed;
     width: 100%;
-    filter: blur(5px);
+    filter: blur(4px);
     z-index: -1;
 }
 
 .titulo-seccion-principal {
     position: fixed;
-    top: calc(((100vh - 83px)/2) - 100px);
+    top: calc(((100vh - 83px)/2) - 50px);
     animation: fadeIn 3s ease-in-out forwards;
     z-index: -1;
 }
 
-.titulo-seccion-principal p{
-    color: whitesmoke;
+.titulo-seccion-principal h1 { 
     font-size: 4rem;
 }
-
-
 .primera-seccion {
     position: relative;
     z-index: 3;

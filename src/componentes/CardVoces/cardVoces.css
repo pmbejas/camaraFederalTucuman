@@ -1,0 +1,15 @@
+.card-voces {
+    border: solid 1px gray;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(73, 72, 72);
+    color: white;
+}
+
+.card-voces--eliminar {
+    background-color: rgb(187, 0, 0);;
+}
+
+.card-voces--eliminar--boton {
+    cursor: pointer;
+}

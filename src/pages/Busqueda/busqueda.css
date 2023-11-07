@@ -1,0 +1,57 @@
+.contenedor-formulario {
+    background-color: rgb(240, 240, 240);
+    padding: 15px;
+    padding-top: 30px;
+    width: 90%!important;
+}
+
+.contenedor-campos {
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+.botonMas:hover {
+    cursor: pointer;
+}
+
+.contenedor-nuevofallo {
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+.titulo-fallonuevo {
+    background-color: rgb(44, 139, 197);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90%!important;
+}
+
+.tablaFirmantes {
+    border-collapse: separate;
+    border-spacing: 10px 0px;
+    background-color: white;
+    border: solid 1px gray;
+    border-radius: 5px;
+}
+
+.filaFirmantes {
+    color: black;
+}
+
+.i-eliminar {
+    cursor: pointer;
+}
+
+.subtitulo-form {
+    background-color: rgb(44, 139, 197);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%!important;
+}

@@ -11,13 +11,19 @@ export const Jueces = () => {
   
   useEffect(()=>{
     fetchData();
+
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+
+    
   }, []);
   
   return (
     <div className="container-fluid m-0 p-0">
       <Backtitulo texto={datos.nombreCamara} />
       <section className='m-0 mb-5'>
-        <div className="container">
         <div className="container-fluid d-flex justify-content-center">
             <div className="container-jueces-titulo">
                 <h3 className="mt-5 mb-2  ps-2 text-start text-dark">Jueces que conforman el Tribunal</h3>
@@ -31,11 +37,11 @@ export const Jueces = () => {
             titulo=""
             classTitulo="text-light p-0 m-0 fs-4 ps-3"
           />
-          <div className="container  d-flex justify-content-center mb-4 mt-4">
-            <div className="container-jueces-imagen d-flex justify-content-center row">
+          <div className="container-fluid m-0 p-0 d-flex justify-content-center mb-4 mt-4">
+            <div className="container-jueces-imagen d-flex justify-content-center row m-0 p-0">
                     <img className="col-12 imagen-tribunal mt-4 mb-2" src="../../Images/vocales/tribunal.jpg" alt="" />
-                    <p className="col-11 fs-5">
-                    La designación de los Jueces Federales es una atribución que le corresponde al Presidente de la Nación con acuerdo del Senado por dos tercios de sus miembros presentes, en sesión pública convocada al efecto, de conformidad con el artículo 99 inciso 4 de la Constitución Nacional.
+                    <p className="col-12 fs-5">
+                      La designación de los Jueces Federales es una atribución que le corresponde al Presidente de la Nación con acuerdo del Senado por dos tercios de sus miembros presentes, en sesión pública convocada al efecto, de conformidad con el artículo 99 inciso 4 de la Constitución Nacional.
                     </p>
             </div>
           </div>
@@ -53,7 +59,7 @@ export const Jueces = () => {
                 <section className="container-fluid m-0 mt-3 mb-3 p-0 text-start">
                     <div className="container-fluid m-0 p-0 justify-content-evenly row gap-4">
                         {datos.jueces.map(juez => (
-                            <div key={juez.orden} className="col-11 mt-2">
+                            <div key={juez.orden} className="col-12 col-md-11 mt-2">
                                 <Cardvocales 
                                     className="col-12 col-md-3" 
                                     nombre={juez.nombre}
@@ -66,7 +72,6 @@ export const Jueces = () => {
                     </div>
                 </section>
             } 
-        </div>
       </section>
     </div>
   )

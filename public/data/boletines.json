@@ -11,10 +11,28 @@
     {
         "idBoletin": "2",
         "thumbnailBoletin":"boletinId2.jpg",
-        "materiaBoletin": "Previsional",
+        "materiaBoletin": "Civil",
         "periodoBoletin": "Enero a Julio 2023",
         "descripcionBoletin": "",
         "tituloBoletin": "",
         "urlBoletin": "boletinId2.pdf"
+    },
+    {
+        "idBoletin": "3",
+        "thumbnailBoletin":"boletinId3.jpg",
+        "materiaBoletin": "Leves Especiales Civil",
+        "periodoBoletin": "Enero a Julio 2023",
+        "descripcionBoletin": "",
+        "tituloBoletin": "",
+        "urlBoletin": "boletinId3.pdf"
+    },
+    {
+        "idBoletin": "4",
+        "thumbnailBoletin":"boletinId4.jpg",
+        "materiaBoletin": "Previsional",
+        "periodoBoletin": "Enero a Julio 2023",
+        "descripcionBoletin": "",
+        "tituloBoletin": "",
+        "urlBoletin": "boletinId4.pdf"
     }
 ]

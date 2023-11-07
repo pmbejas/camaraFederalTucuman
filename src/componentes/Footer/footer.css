@@ -2,3 +2,7 @@
     min-height: 175px;
     background-color: rgb(52,58,64);
 }
+
+.pie-de-pagina h5 {
+    font-size: .9rem;
+}
